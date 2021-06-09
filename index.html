@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Creator</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="elements">
+      <form class="form">
+        <label for="text">Button text</label>
+        <input type="text" id="text" name="text" />
+        <label for="color">Color</label>
+        <input type="color" id="color" name="color" />
+        <label for="backGround">Background color</label>
+        <input type="color" id="backGround" name="backGround" />
+        <label for="width">Width</label>
+        <input type="range" name="width" id="width" />
+        <label for="border">Border</label>
+        <input type="text" id="border" name="border" />
+        <label for="boderRadius">Border radius</label>
+        <input type="range" id="borderRadius" name="borderRadius" />
+        <label for="fontFamily">Font family</label>
+        <select name="fontFamily" id="fontFamily">
+          <option>Select</option>
+          <option value="Arial">Arial</option>
+          <option value="Georgea">Georgea</option>
+          <option value="monospace">monospace</option>
+          <option value="Helvetica">Helvetica</option>
+        </select>
+        <label for="fontSize">Font size</label>
+        <input type="text" id="fontSize" name="fontSize" />
+      </form>
+      <section class="code">
+        <button class="btn">Name Button</button>
+        <span>
+          <pre><code></code></pre>
+        </span>
+      </section>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
