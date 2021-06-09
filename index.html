@@ -10,18 +10,20 @@
   <body>
     <section class="elements">
       <form class="form">
-        <label for="text">Button text</label>
-        <input type="text" id="text" name="text" />
+        <label for="text">Text button</label>
+        <input type="text" id="text" name="innerText" />
         <label for="color">Color</label>
         <input type="color" id="color" name="color" />
         <label for="backGround">Background color</label>
-        <input type="color" id="backGround" name="backGround" />
+        <input type="color" id="backgroundColor" name="backgroundColor" />
         <label for="width">Width</label>
-        <input type="range" name="width" id="width" />
+        <input max="600" type="range" name="width" id="width" />
+        <label for="height">Height</label>
+        <input max="200" type="range" name="height" id="heigth" />
         <label for="border">Border</label>
         <input type="text" id="border" name="border" />
         <label for="boderRadius">Border radius</label>
-        <input type="range" id="borderRadius" name="borderRadius" />
+        <input max="15" type="range" id="borderRadius" name="borderRadius" />
         <label for="fontFamily">Font family</label>
         <select name="fontFamily" id="fontFamily">
           <option>Select</option>
@@ -34,10 +36,9 @@
         <input type="text" id="fontSize" name="fontSize" />
       </form>
       <section class="code">
-        <button class="btn">Name Button</button>
-        <span>
-          <pre><code></code></pre>
-        </span>
+        <button class="btn">Insert text</button>
+
+        <pre><code class="display"></code></pre>
       </section>
     </section>
 
